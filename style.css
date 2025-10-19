@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.top-section {
+  background: linear-gradient(to bottom, #00000000, #000000);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 120px;
+}
+
+.logo-icon {
+  background: #ff9f34;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-icon span {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.home {
+  padding-left: 276px;
+}
+
+a {
+  display: flex;
+  gap: 38px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.buttons button {
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  color: #ffffff;
+}
+
+.signup {
+  padding-right: 120px;
+  width: 118px;
+  height: 38px;
+  border: 10px solid white;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 120px;
+}
+
+.hero-text {
+  width: 519;
+  height: 216;
+  color: #ffffff;
+}
+
+.hero-text h1 {
+  font-size: 52px;
+  line-height: 72px;
+  padding-bottom: 10px;
+}
+.hero-text h2 {
+  font-size: 52px;
+  line-height: 72px;
+  padding-bottom: 10px;
+}
+.hero-text h3 {
+  font-size: 52px;
+  line-height: 72px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #ffffffb5;
+  margin-bottom: 30px;
+  width: 514px;
+  height: 96px;
+}
+
+.btn {
+  background-color: #ff9f34;
+  border: none;
+  color: #ffffff;
+  font-weight: 500px;
+  cursor: pointer;
+  width: 165px;
+  height: 56px;
+  margin-bottom: 80px;
+  margin-top: 32px;
+}
+
+.hero-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-btn {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 24px;
+  margin-right: 320px;
+  margin-bottom: 298px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  gap: 131px;
+  align-items: center;
+  padding: 80px 120px;
+  background-color: #fff8f1;
+}
+
+.stat h2 {
+  color: #1e1000;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  color: #1e1000;
+  font-size: 40px;
+}
+
+.stat-text {
+  width: 514px;
+  color: #1e1000b5;
+  font-size: 16px;
+}
+
+/* ნაცრისფერი ბლოკი (მარცხენა მხარე) */
+.image-box {
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 600px;
+  height: 500px;
+  background-color: #c4c4c4;
+}
+
+/* ყავისფერი ბლოკი (მარჯვენა მხარე) */
+.text-box {
+  position: relative;
+  top: 300px;
+  left: 290px;
+  width: 1150px;
+  height: 540px;
+
+  background-color: #402613;
+  color: white;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-left: 526px;
+  padding-top: 52px;
+  letter-spacing: 0.5px;
+}
+
+.text-box p {
+  font-size: 16px;
+  color: #ffffffb5;
+  line-height: 32px;
+  padding-left: 526px;
+  padding-top: 24px;
+  width: 514px;
+  height: 224px;
+}
+
+.first_p {
+  margin-bottom: 10px;
+}
