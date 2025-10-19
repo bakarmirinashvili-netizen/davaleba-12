@@ -358,3 +358,57 @@ a {
     text-align: left;
   }
 }
+
+
+.h2-case {
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 330px;
+    margin-top: 100px;
+}
+
+.p-case {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1000B5;
+    padding-right: 330px;
+    margin-top: 100px;
+}
+
+.h2-p-case {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-case {
+    width: 384px;
+    height: 300px;
+}
+
+.orange-p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FF9F34;
+    margin-top: 20px;
+}
+
+.h3-case {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.p-build {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1000B5;
+    margin-top: 15px;
+}
+
+.gray-card {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 50px;
+}
