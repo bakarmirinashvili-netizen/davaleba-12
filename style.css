@@ -9,6 +9,7 @@ body {
 
 .top-section {
   background: linear-gradient(to bottom, #00000000, #000000);
+  height: 676px;
 }
 .header {
   display: flex;
@@ -80,8 +81,8 @@ a {
 }
 
 .hero-text {
-  width: 519;
-  height: 216;
+  width: 519px;
+  height: 216px;
   color: #ffffff;
 }
 
@@ -120,14 +121,11 @@ a {
   margin-bottom: 80px;
   margin-top: 32px;
 }
-
-.hero-play {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.watch-video {
+  display: none;
 }
 
-.play-btn {
+.hero-play {
   background-color: #ffffff;
   border-radius: 50%;
   width: 80px;
@@ -138,7 +136,6 @@ a {
   cursor: pointer;
   padding: 24px;
   margin-right: 320px;
-  margin-bottom: 298px;
 }
 
 .stats {
@@ -190,6 +187,7 @@ a {
   padding: 60px 80px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 340px;
 }
 
 .text-box h2 {
@@ -213,4 +211,150 @@ a {
 
 .first_p {
   margin-bottom: 10px;
+}
+
+.benefits {
+  padding: 180px 120px;
+  background-color: #ffffff;
+}
+
+.benefits-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #1e1000;
+  line-height: 60px;
+  margin-bottom: 52px;
+}
+
+.benefits-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.benefits-left {
+  width: 450px;
+}
+
+.benefits-left h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #121212;
+  margin-bottom: 16px;
+}
+
+.benefits-left p {
+  font-size: 16px;
+  color: #1e1000b5;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.advantage-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #f2f2f2;
+
+  padding: 15px 26px;
+  margin-bottom: 24px;
+  background-color: #f2f2f2;
+  width: 450px;
+  height: 80px;
+}
+
+.text h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e1000;
+  margin-bottom: 8px;
+  margin-top: 11px;
+}
+
+.text p {
+  font-size: 16px;
+  color: #1e1000b5;
+}
+
+.benefits-right {
+  width: 698px;
+  height: 444px;
+  background-color: #c4c4c4;
+}
+
+/* Responsive */
+
+@media (max-width: 375px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 24px;
+  }
+
+  .hero-text {
+    width: 323px;
+    text-align: center;
+  }
+
+  .hero-text p {
+    width: 320px;
+  }
+
+  .play-btn {
+    display: none;
+  }
+
+  .watch-video {
+    display: inline-block;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 16px 26px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .stats {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .text-box h2,
+  .text-box p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .image-box {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    width: 327px;
+    height: 272px;
+  }
+
+  .benefits {
+    padding: 100px 40px;
+  }
+
+  .benefits-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .benefits-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .benefits-right {
+    width: 100%;
+    height: 300px;
+  }
+
+  .advantage-box {
+    width: 100%;
+    gap: 20px;
+    text-align: left;
+  }
 }
