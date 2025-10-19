@@ -363,7 +363,7 @@ a {
 .h2-case {
     font-weight: 700;
     font-size: 40px;
-    padding-left: 330px;
+    padding-left: 150px;
     margin-top: 100px;
 }
 
@@ -371,7 +371,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     color: #1E1000B5;
-    padding-right: 330px;
+    padding-right: 150px;
     margin-top: 100px;
 }
 
@@ -408,7 +408,144 @@ a {
 .gray-card {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 50px;
     justify-content: center;
     margin-top: 50px;
+}
+
+.h2-quest {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.p-browse {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1E1000B5;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.div-1-first {
+  width: 1500px;
+  height: 150px;
+  border: solid #DDDDDD;
+  border-width: 1px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.div-p {
+  font-weight: 600;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.div-p-2 {
+  padding-left: 50px;
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #AAAAAA;
+} 
+
+.card-p {
+  width: 1500px;
+  border: solid #DDDDDD;
+  border-width: 1px;
+  height: 94px;
+  margin-left: 150px;
+}
+
+.card-div-p {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bef-fot {
+  width: 100%;
+  height: 370px;
+  background-color: #FFF8F1;
+  margin-top: 200px;
+}
+
+.fot-h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #1E1000;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.fot-p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1E1000B5;
+  margin-top: 30px;
+}
+
+.fot-but {
+  text-align: center;
+  width: 165px;
+  height: 56px;
+  background-color: #FF9F34;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  margin-left: 45%;
+  margin-top: 50px;
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  background-color: #402613;
+}
+
+.f-logo {
+  padding-left: 150px;
+  padding-top: 100px;
+}  
+
+.footer-p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 150px;
+  margin-top: 40px;
+  color: #FFFFFFB5;
+}
+
+.fot-sub{
+  padding-left: 150px;
+  margin-top: 50px;
+}
+
+.fot-links {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.fot-column {
+  font-weight: 400;
+  font-size: 14px;
+  color: #F4F4F4;
+}
+
+.column-p {
+  padding-left: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fot-logo-p {
+  display: flex;
+  flex-direction: row;
 }
